@@ -4,7 +4,7 @@
  * main - Entry point
  * Description : Using the printf function
  * Printing a sentence to the screen
- * Return : Always 1 when programme runs
+ * Return: Always 0 (success)
  */
 int main(void)
 {
