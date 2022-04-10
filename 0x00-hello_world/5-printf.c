@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - It prints the statement (with,.with proper..) to the sreen
+ * main - Entry point
+ *My Hello, print task
  *
  * Description : Using the printf function
  * Printing a sentence to the screen
  *
- * Return : Always 0 (Success/prints the sentence)
+ * Return : Always 1 when programme runs
  */
 int main(void)
 {
