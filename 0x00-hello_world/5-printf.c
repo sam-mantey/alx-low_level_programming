@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - where the program begins 
  *
  * Description : Using the printf function 
  * Printing a sentence to the screen
