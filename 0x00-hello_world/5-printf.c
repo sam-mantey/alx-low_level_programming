@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - where the program begins 
+ * main - It prints the statement (with proper grammar, but the outcome is a piece of art,)
  *
  * Description : Using the printf function 
  * Printing a sentence to the screen
@@ -12,4 +12,4 @@ int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
-}			
+}
