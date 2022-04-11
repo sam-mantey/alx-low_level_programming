@@ -6,7 +6,7 @@
  * Return: Always 0 (Succes/correct)
  *
  */
-int main (void)
+int main(void)
 {
 	char alph;
 
