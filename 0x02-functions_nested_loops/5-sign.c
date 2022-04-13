@@ -3,7 +3,7 @@
 /**
  * print_sign - Prints the sigh of an integer
  * @n: Contains integer to be compared
- * Return: always 0
+ * Return: always 2
  */
 int print_sign(int n)
 {
@@ -23,4 +23,5 @@ int print_sign(int n)
 	return (-1);
 	}
 	_putchar('\n');
+	return (2);
 }
