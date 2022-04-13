@@ -2,7 +2,7 @@
 
 /**
  * _abs - this returns the absolute value of an input
- *
+ * @n: Contains the value
  * Return: Always 0
  */
 int _abs(int n)
