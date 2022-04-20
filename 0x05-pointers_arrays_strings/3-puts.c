@@ -2,10 +2,10 @@
 
 /**
  * _puts - Prints a string to the stdout
- *
+ * @str - contains string
  * Return: Always 0 (success)
  */
-void _puts(car *str)
+void _puts(char *str)
 {
 	int n;
 	char s;
