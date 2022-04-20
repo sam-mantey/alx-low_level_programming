@@ -3,7 +3,7 @@
 /**
  * _strlen - calculates the legth of a string
  * @s: It contains the string
- * Result: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int _strlen(char *s)
 {
