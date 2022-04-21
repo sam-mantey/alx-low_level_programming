@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev(car *s)
+ * print_rev - reverses string
  * @s: It is a pointer of the variable type char
  * Return: always 0 (succes)
  */
