@@ -2,7 +2,7 @@
 
 /**
  * puts_half - Prints the second half of a string
- *
+ * @str: contains string
  * Return: Always 0 (success)
  */
 void puts_half(char *str)
@@ -22,6 +22,7 @@ void puts_half(char *str)
 	_putchar(str[j]);
 	j++;
 	}
+	}
 	else if (i % 2 != 0)
 	{
 	j = (i -1) / 2;
@@ -29,6 +30,7 @@ void puts_half(char *str)
 	{
 	_putchar(str[j]);
 	j++;
+	}
 	}
 	_putchar('\n');
 }
