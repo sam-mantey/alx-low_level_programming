@@ -6,7 +6,7 @@
  * @a: it is the array name
  * Return: Always 0 (success)
  */
-void print_array(int *a, int n);
+void print_array(int *a, int n)
 {
 	int i;
 
