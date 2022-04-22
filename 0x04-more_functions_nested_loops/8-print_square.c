@@ -5,7 +5,7 @@
  * @size: int variable
  * Return: Always 0 (success)
  */
-void print_squares(int size)
+void print_square(int size)
 {
 	int i, j;
 
