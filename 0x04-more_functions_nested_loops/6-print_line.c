@@ -5,7 +5,7 @@
  * @n: an int
  * Return: Always 0 (success)
  */
-void print_line(int n);
+void print_line(int n)
 {
 	int i;
 
@@ -15,8 +15,10 @@ void print_line(int n);
 	{
 	_putchar(95);
 	}
+
 	_putchar('\n');
 	}
+
 	else
 	{
 	_putchar('\n');
