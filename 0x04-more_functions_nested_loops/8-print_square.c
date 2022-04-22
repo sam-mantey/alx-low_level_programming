@@ -19,6 +19,7 @@ void print_squares(int size)
 	}
 	_putchar(35);
 	}
+	}
 	else
 	{
 	_putchar('\n');
