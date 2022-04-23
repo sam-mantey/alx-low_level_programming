@@ -12,15 +12,15 @@ int main(void)
         {
         if (i % 3 == 0 && i % 5 != 0)
         {
-        _putchar('Fizz');
+        _putchar("Fizz");
         }
         else if (i % 5 == 0 && i % 3 != 0)
         {
-        _putchar('Buzz');
+        _putchar("Buzz");
         }
         else if (i % 5 == 0 && i % 3 == 0)
         {
-        _putchar('FizzBuzz');
+        _putchar("FizzBuzz");
         }
         _putchar(' \n');
         }
