@@ -12,16 +12,20 @@ int main(void)
         {
         if (i % 3 == 0 && i % 5 != 0)
         {
-        _putchar("Fizz");
+        printf("Fizz");
         }
         else if (i % 5 == 0 && i % 3 != 0)
         {
-        _putchar("Buzz");
+        printf("Buzz");
         }
         else if (i % 5 == 0 && i % 3 == 0)
         {
-        _putchar("FizzBuzz");
+        printf("FizzBuzz");
         }
-        _putchar(' \n');
+        else
+        {
+        printf("%d", i);
+        }
+        printf(' \n');
         }
 }
