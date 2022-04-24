@@ -1,4 +1,3 @@
-24 lines (18 sloc)  409 Bytes
 #include "main.h"
 /**
  *_strcmp - compares two strings
