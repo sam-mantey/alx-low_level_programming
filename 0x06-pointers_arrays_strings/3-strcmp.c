@@ -16,9 +16,9 @@ char *second = s2;
 
 while (*first != '\0' && *second != '\0' && *first == *second)
 {
-str_one++;
-str_two++;
+first++;
+second++;
 }
 
-return (*str_one - *str_two);
+return (*first - *second);
 }
