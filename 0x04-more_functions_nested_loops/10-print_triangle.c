@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangles - This prints riaght angled triangles
+ * print_triangle - This prints riaght angled triangles
  * @size: It is an int variable
  * Return: Always 0 (success)
  */
