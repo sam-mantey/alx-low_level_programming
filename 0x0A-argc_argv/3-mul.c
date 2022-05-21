@@ -16,7 +16,10 @@ int main(int argc, char *argv[])
 	{
 	printf("Error\n");
 	}
-	prod = atoi(argv[1]) * atio(argv[2])
+	else if (argc == 2)
+	{
+	prod = atoi(argv[1]) * atoi(argv[2])
 	printf("%d\n", prod);
+	}
 	return (0);
 }
