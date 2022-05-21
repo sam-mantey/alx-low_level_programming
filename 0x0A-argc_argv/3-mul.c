@@ -10,16 +10,18 @@
 
 int main(int argc, char *argv[])
 {
-	int prod;
+	int a, b;
 
 	if (argc != 3)
 	{
 	printf("Error\n");
+	return (1);
 	}
 	else if (argc == 2)
 	{
-	prod = atoi(argv[1]) * atoi(argv[2])
-	printf("%d\n", prod);
-	}
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	printf("%d\n", a * b);
 	return (0);
+	}
 }
