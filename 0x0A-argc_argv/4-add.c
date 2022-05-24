@@ -41,6 +41,7 @@ int main(int argc, char *argv[])
 	sum = sum + atoi(argv[j]);
 	j++;
 	}
+	printf("%d\n", sum);
 	return (0);
 	}
 }
