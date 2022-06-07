@@ -14,8 +14,6 @@ char *create_array(unsigned int size, char c)
 	{
 	return (NULL);
 	}
-
-	char *buffer;
 	unsigned int j;
 
 	j = 0;
