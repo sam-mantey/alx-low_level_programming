@@ -15,13 +15,13 @@ char *create_array(unsigned int size, char c)
 	return (NULL);
 	}
 
-	char *array;
+	char *buffer;
 	unsigned int j;
 
 	j = 0;
 	/*Allocating memory for the array*/
 	array = (char *) malloc(size * sizeof(c));
-	if (array == 0)
+	if (buffer == 0)
 	{
 	return (NULL);
 	}
@@ -29,9 +29,9 @@ char *create_array(unsigned int size, char c)
 	{
 	while (j < size)
 	{
-	*(array + j) = c;
+	*(buffer + j) = c;
 	j++;
 	}
-	return (array);
+	return (buffer);
 	}
 }
