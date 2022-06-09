@@ -46,14 +46,14 @@ char *_strcpy(char *nwstr, char *sr)
  */
 char *_strdup(char *str)
 {
-	if (str == NULL)
+	if (str == 0)
 	{
 	return (NULL);
 	}
 
 	int size;
 
-	size = _strlen(*str) + 1;
+	size = _strlen(str) + 1;
 	char *newetr;
 
 	newstr = (char *) malloc(size * sizeof(str));
