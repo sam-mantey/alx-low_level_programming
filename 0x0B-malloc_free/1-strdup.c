@@ -54,7 +54,7 @@ char *_strdup(char *str)
 	int size;
 
 	size = _strlen(str) + 1;
-	char *newetr;
+	char *newstr;
 
 	newstr = (char *) malloc(size * sizeof(str));
 	if (newstr = 0)
@@ -63,7 +63,7 @@ char *_strdup(char *str)
 	}
 	else
 	{
-	_strcpy(*newstr, *str)
+	_strcpy(newstr, str)
 	return (newstr);
 	free (newstr);
 	}
