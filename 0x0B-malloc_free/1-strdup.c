@@ -65,6 +65,6 @@ char *_strdup(char *str)
 	{
 	_strcpy(newstr, str);
 	return (newstr);
-	free (newstr);
+	free(newstr);
 	}
 }
