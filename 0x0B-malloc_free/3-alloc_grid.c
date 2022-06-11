@@ -10,7 +10,7 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int size,;
+	int size;
 	int *d2array;
 
 	if ((width <= 0) || (height <= 0))
@@ -23,5 +23,5 @@ int **alloc_grid(int width, int height)
 	if (d2array == 0)
 	return (NULL);
 	else
-	return (d2array);
+	return (*d2array);
 }	
