@@ -44,6 +44,7 @@ char *str_concat(char *s1, char *s2)
 	*(newstr + i) = *(s1 + i);
 	i++;
 	}
+	j = 0;
 	while (*(s2 + j) != '\0')
 	{
 	*(newstr + i) = *(s2 + j);
