@@ -1,32 +1,43 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
-
 /**
- * alloc_grid - It returns a pointer to an array
- * @width: It is an int
- * @height: an int
- * Return: a pointer
+ * alloc_grid - allocates a grid, make space and free space
+ * @width: takes in width of grid
+ * @height: height of grid
+ * Return: grid with freed spaces
  */
+
 int **alloc_grid(int width, int height)
 {
-	int size, i, j;
-	int *d2array;
+/*Declaring variables*/
+int **grid;
+int i, j;
 
-	if ((width <= 0) || (height <= 0))
-	return (NULL);
+if (width <= 0 || height <= 0)
+{
+return (NULL);
+}
 
-	size = width * height;
-	d2array = (int *) malloc(size * sizeof(int));
-	for (i = 0; i < height; i++)
-	{
-		for (j = 0; j < width; j++)
-		{
-		d2array[i][j] = 0;
-		}
-	}
-	if (d2array == 0)
-	return (NULL);
-	else
-	return (d2array);
-}	
+grid = malloc(sizeof(int *) * height); /*malloc*/
+
+if (grid == NULL)
+{
+return (NULL);
+}
+
+for (i = 0; i < height; i++)
+{
+grid[i] = malloc(sizeof(int) * width);
+if (grid[i] == NULL)
+{
+for (i = i - 1; i >= 0; i--)
+{
+free(grid[i]);
+}
+free(grid);
+return (NULL);
+}
+}
+for (i = 0; j < width; j++)
+grid[i][j] = 0;
+return (grid);
+}
