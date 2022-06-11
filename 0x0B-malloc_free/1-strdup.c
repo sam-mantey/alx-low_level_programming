@@ -35,7 +35,6 @@ char *_strcpy(char *nwstr, char *sr)
 	nwstr[j] = sr[j];
 	j++;
 	}
-	nwstr[j] = '\0';
 	return (nwstr);
 }
 
