@@ -27,7 +27,7 @@ int _strlen(char *c)
  */
 char *str_concat(char *s1, char *s2)
 {
-	char newstr;
+	char *newstr;
 	int i, j, size;
 
 	if (s1 == NULL)
