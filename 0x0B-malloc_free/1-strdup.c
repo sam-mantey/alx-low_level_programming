@@ -47,17 +47,17 @@ char *_strcpy(char *nwstr, char *sr)
 char *_strdup(char *str)
 {
 	char *newstr;
+	int size;
+
 	if (str == 0)
 	{
 	return (NULL);
 	}
 
-	int size;
-
 	size = _strlen(str) + 1;
 
 	newstr = (char *) malloc(size * sizeof(str));
-	if (newstr = 0)
+	if (newstr == 0)
 	{
 	return (NULL);
 	}
